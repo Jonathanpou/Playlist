@@ -1,0 +1,27 @@
+ <h2>Streaming Service</h2>
+
+
+    <br>
+
+
+    <audio id="audioController" controls preload="auto"></audio>
+    <br>
+    <br>
+    <button type="button" onclick="songSwitcher('all_my_love') ; nameChanger()" class="btn btn-primary">All My
+        Love</button>
+    <button type="button" onclick="addSongToPlaylist('all_my_love') ; nameChanger()" 
+    class="add">+</button>
+    <br>
+    <br>
+    <button type="button" onclick="songSwitcher('blinding_lights')" class="btn btn-primary">Blinding Lights</button>
+    <button type="button" onclick="addSongToPlaylist('blinding_lights') ; nameChanger()" 
+    class="add">+</button>
+    <br>
+    <br>
+    <button type="button" onclick="songSwitcher('in_your_eyes')" class="btn btn-primary">Robin Schulz - In Your
+        Eyes</button>
+    <button type="button" onclick="addSongToPlaylist('in_your_eyes') ; nameChanger()" 
+        class="add">+</button>   
+    <br>
+    <br>
+    <p id="feedback"></p>
